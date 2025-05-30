@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding:0;
+}
+
+
+
+#navbar{
+    background-color:#c0392b ;
+    color:white;
+    padding:10px;
+    
+}
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+#Incontain{
+    background-color:rgb(255, 214, 214);
+    
+    color:black;
+    width:500px;
+    border-radius:5px;
+    padding:10px;
+    margin:5px;
+  
+    
+    
+
+}
+#Incontain{
+    display: inline-block;
+    vertical-align:top;
+}
+
+
+
+#Incontain h2{
+    color:#c0392b;
+}
+#Incontain button{
+    background-color:#e87265;
+    color:black;
+    padding:10px;
+    border-radius:5px;
+    margin-top:10px;
+    border:none;
+    
+    
+    
+}
+#circle-btn{
+    background-color:#b6493d;
+    color:rgb(59, 56, 56);
+    padding-left:30px;
+    padding-right:30px;
+    padding-bottom:20px;
+    padding-top:20px;
+    border:none;
+    border-radius:100%;
+    font-size:40px;
+    position:fixed;
+    right:30px;
+    bottom:30px;
+    cursor:pointer;
+}
+#blscreen{
+    height:100%;
+    width:100%;
+    background-color:black;
+    opacity:0.6;
+   left:0%;
+   top:0%;
+    position:absolute;
+    z-index: 2;
+    display:none;
+
+}
+#popbox{
+    background-color:rgb(255, 214, 214);
+    width:40%;
+    padding:40px;
+    border-radius:10px;
+    position:absolute;
+    top:20%;
+    left:25%;
+    z-index: 3;
+    display:none;
+
+
+}
+#popbox input{
+    background-color:transparent;
+    
+    width:100%;
+    padding:5px;
+    margin:2px;
+    font-size:20px;
+    border:none;
+    border-bottom:solid black 2px;
+}
+#popbox textarea{
+    background-color:transparent;
+    
+    width:100%;
+    padding:5px;
+    margin:2px;
+    font-size:20px;
+    border:none;
+    border-bottom:solid black 2px;
+}
+#popbox button{
+    background-color:#e87265;
+    padding:10px;
+    margin:5px;
+    border:none;
+    cursor: pointer;
+    border-radius:5px;
+}
+#popbox input:focus{
+    outline:none;
+}
+#popbox textarea:focus{
+    outline:none;
+}
+.nextcontainer{
+    display:inline-block;
+    background-color:rgb(255, 214, 214);
+    color:black;
+    width:500px;
+    border-radius:5px;
+    padding:10px;
+    margin:5px;
+}
+.nextcontainer textarea{
+    display:inline-block;
+}
+.nextcontainer h2{
+    color:#c0392b;
+}
+.nextcontainer button{
+    background-color:#e87265;
+    padding:10px;
+    border-radius:5px;
+    margin-top:10px;
+    border:none;
+}
